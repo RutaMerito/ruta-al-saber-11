@@ -14,7 +14,11 @@
            padding: 2.2rem 1rem 2rem; text-align: center; }
   header h1 { font-size: 1.6rem; margin-bottom: .4rem; }
   header p { opacity: .92; font-size: .95rem; }
-  main { max-width: 860px; margin: 2rem auto; padding: 0 1.2rem 3rem; }
+  nav.legal { background: #fff; border-bottom: 1px solid #e3e9e5; text-align: center;
+              font-size: .88rem; padding: .65rem 1rem; }
+  nav.legal a { color: var(--verde-osc); text-decoration: none; margin: 0 .7rem; white-space: nowrap; }
+  nav.legal a:hover { text-decoration: underline; }
+  main { max-width: 860px; margin: 0 auto; padding: 2rem 1.2rem 3rem; }
   .caja { background: #fff; border: 1px solid #e3e9e5; border-radius: 12px;
           padding: 1.8rem 2rem; box-shadow: 0 1px 3px rgba(0,0,0,.05); }
   h2 { color: var(--verde-osc); font-size: 1.2rem; margin: 1.6rem 0 .6rem; }
@@ -26,7 +30,7 @@
   .meta { font-size: .85rem; color: #5b6b62; margin-top: .6rem; }
   footer { text-align: center; padding: 1.5rem 1rem 2.5rem; color: #5b6b62; font-size: .85rem; }
   footer strong { color: var(--texto); }
-  @media (max-width: 560px) { .caja { padding: 1.2rem; } }
+  @media (max-width: 560px) { .caja { padding: 1.2rem; } nav.legal a { margin: 0 .4rem; } }
 </style>
 </head>
 <body>
@@ -34,6 +38,12 @@
   <h1>Política de Privacidad</h1>
   <p>Ruta al Saber 11™</p>
 </header>
+<nav class="legal" aria-label="Documentos legales">
+  <a href="../index.html">Inicio</a> ·
+  <a href="privacidad.html">Política de Privacidad</a> ·
+  <a href="terminos.html">Términos de Uso</a> ·
+  <a href="eliminacion-datos.html">Eliminación de Datos</a>
+</nav>
 <main>
   <div class="caja">
     <h2>1. Identificación del desarrollador</h2>
@@ -56,7 +66,7 @@
     </ul>
 
     <h2>4. Datos almacenados localmente</h2>
-    <p>Toda la información relacionada con tu práctica (respuestas, puntajes, estadísticas, plan de estudio, preferencias y caché del calendario) se almacena únicamente en la memoria interna de tu dispositivo (bases de datos y preferencias locales de Android). <strong>El desarrollador no tiene acceso a estos datos.</strong> Podrás eliminar esta información borrando los datos de la aplicación desde los Ajustes del dispositivo o desinstalando la aplicación.</p>
+    <p>Toda la información relacionada con tu práctica (respuestas, puntajes, estadísticas, plan de estudio, preferencias y caché del calendario) se almacena únicamente en la memoria interna de tu dispositivo (preferencias y archivos locales de Android). <strong>El desarrollador no tiene acceso a estos datos.</strong> Podrás eliminar esta información borrando los datos de la aplicación desde los Ajustes del dispositivo o desinstalando la aplicación.</p>
 
     <h2>5. Permisos que puede solicitar la aplicación</h2>
     <ul>
@@ -81,28 +91,38 @@
     <h2>8. Identificadores y datos técnicos</h2>
     <p>La aplicación no usa identificadores propios del usuario, ni rastreadores propios, ni comunicaciones a servidores del desarrollador. Los únicos identificadores involucrados son los que gestiona Google AdMob con fines publicitarios, tal como se describe en la sección 6.</p>
 
-    <h2>9. Derechos del usuario</h2>
+    <h2>9. Respaldo en la nube de Android (Google)</h2>
+    <p>La aplicación participa en el sistema de respaldo automático de Android (Google Auto Backup). Según la configuración de tu dispositivo y de tu cuenta de Google, parte de la información local (por ejemplo, tus resultados y preferencias) puede incluirse en las copias de respaldo que Android gestiona en la nube de Google o en la transferencia entre dispositivos. <strong>Estas copias son administradas por Google</strong> conforme a sus propias políticas; el desarrollador no tiene acceso a su contenido ni ejerce control sobre ellas. Puedes administrar o eliminar estas copias desde los Ajustes de Google de tu dispositivo (Respaldo).</p>
+
+    <h2>10. Compartición de información</h2>
+    <p><strong>La aplicación no vende ni comparte tus datos con terceros.</strong> Las únicas transferencias que pueden ocurrir son:</p>
+    <ul>
+      <li><strong>Con Google AdMob</strong> al mostrar publicidad, tal como se describe en la sección 6.</li>
+      <li><strong>Por acciones que tú decides realizar:</strong> por ejemplo, exportar un informe de estudio en formato PDF a la carpeta Descargas de tu dispositivo o compartir contenido (informes, preguntas, mensajes) mediante aplicaciones de mensajería, correo u otras aplicaciones instaladas. Estas acciones se inician desde tu dispositivo, son opcionales y el desarrollador no participa de esa transmisión.</li>
+    </ul>
+
+    <h2>11. Derechos del usuario</h2>
     <ul>
       <li><strong>Eliminar tus datos:</strong> borra los datos de la aplicación (Ajustes → Aplicaciones → Ruta al Saber 11 → Almacenamiento → Borrar datos) o desinstala la aplicación.</li>
       <li><strong>Opt-out de publicidad personalizada:</strong> usa la opción de desactivación de personalización de anuncios en Ajustes de Google del dispositivo.</li>
-      <li><strong>Consultas y solicitudes:</strong> puedes escribir a <strong>RutaMeritoApps@gmail.com</strong> para cualquier consulta o solicitud relacionada con tu información (ver sección 10).</li>
+      <li><strong>Consultas y solicitudes:</strong> puedes escribir a <strong>RutaMeritoApps@gmail.com</strong> para cualquier consulta o solicitud relacionada con tu información (ver sección 16).</li>
     </ul>
 
-    <h2>10. Conservación y eliminación de datos</h2>
-    <p>Los datos de práctica y preferencias se conservan únicamente en tu dispositivo mientras la aplicación esté instalada. Al desinstalar la aplicación o borrar sus datos, toda esa información se elimina de manera definitiva. El desarrollador no mantiene copias ni base de datos central de estos datos.</p>
+    <h2>12. Conservación y eliminación de datos</h2>
+    <p>Los datos de práctica y preferencias se conservan únicamente en tu dispositivo mientras la aplicación esté instalada. Al desinstalar la aplicación o borrar sus datos, toda esa información se elimina de manera definitiva. El desarrollador no mantiene copias ni base de datos central de estos datos. Excepcionalmente, las copias de respaldo gestionadas por Google (sección 9) pueden conservarse en la nube según la configuración de tu cuenta; puedes gestionarlas desde los Ajustes de Google de tu dispositivo. Los informes PDF que exportes a la carpeta Descargas permanecen en tu dispositivo hasta que decidas eliminarlos.</p>
 
-    <h2>11. Seguridad</h2>
+    <h2>13. Seguridad</h2>
     <p>Los datos locales están protegidos por las salvaguardas de seguridad de Android (almacenamiento privado por aplicación). Las únicas comunicaciones de red ocurren mediante conexiones seguras (HTTPS) hacia el sitio del calendario y hacia Google para la publicidad. Esta aplicación no posee servidores propios que almacenen información de los usuarios.</p>
 
-    <h2>12. Menores de edad</h2>
+    <h2>14. Menores de edad</h2>
     <p>La aplicación está dirigida a estudiantes de grado 11.° y demás personas que se preparen para el examen de Estado. No se recopilan datos personales de menores; por ello, no se aplican requisitos adicionales de consentimiento parental por parte del desarrollador. Cualquier práctica publicitaria se rige por las normas de Google.</p>
 
-    <h2>13. Cambios en esta política</h2>
+    <h2>15. Cambios en esta política</h2>
     <p>Podemos actualizar esta Política de Privacidad cuando sea necesario. La versión vigente siempre estará publicada en esta página, indicando la fecha de entrada en vigencia. El uso continuado de la aplicación después de una actualización implica la aceptación de los cambios.</p>
 
-    <h2>14. Contacto</h2>
+    <h2>16. Contacto</h2>
     <p>Para cualquier consulta sobre privacidad, datos o esta política, escríbenos a <strong>RutaMeritoApps@gmail.com</strong>.</p>
-    <p class="meta">Última actualización: 19 de septiembre de 2026.</p>
+    <p class="meta">Última actualización: 21 de septiembre de 2026.</p>
   </div>
 </main>
 <footer>

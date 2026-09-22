@@ -6,6 +6,7 @@ Documentación oficial y páginas legales de **Ruta al Saber 11™**, aplicació
 
 Este repositorio es público y contiene únicamente la documentación y las páginas legales oficiales de la aplicación:
 
+- [Inicio — Documentación legal](https://rutamerito.github.io/ruta-al-saber-11/)
 - [Política de Privacidad](https://rutamerito.github.io/ruta-al-saber-11/docs/privacidad.html)
 - [Términos de Uso](https://rutamerito.github.io/ruta-al-saber-11/docs/terminos.html)
 - [Eliminación de Datos](https://rutamerito.github.io/ruta-al-saber-11/docs/eliminacion-datos.html)

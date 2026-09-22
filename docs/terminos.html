@@ -14,7 +14,11 @@
            padding: 2.2rem 1rem 2rem; text-align: center; }
   header h1 { font-size: 1.6rem; margin-bottom: .4rem; }
   header p { opacity: .92; font-size: .95rem; }
-  main { max-width: 860px; margin: 2rem auto; padding: 0 1.2rem 3rem; }
+  nav.legal { background: #fff; border-bottom: 1px solid #e3e9e5; text-align: center;
+              font-size: .88rem; padding: .65rem 1rem; }
+  nav.legal a { color: var(--verde-osc); text-decoration: none; margin: 0 .7rem; white-space: nowrap; }
+  nav.legal a:hover { text-decoration: underline; }
+  main { max-width: 860px; margin: 0 auto; padding: 2rem 1.2rem 3rem; }
   .caja { background: #fff; border: 1px solid #e3e9e5; border-radius: 12px;
           padding: 1.8rem 2rem; box-shadow: 0 1px 3px rgba(0,0,0,.05); }
   h2 { color: var(--verde-osc); font-size: 1.2rem; margin: 1.6rem 0 .6rem; }
@@ -26,7 +30,7 @@
   .meta { font-size: .85rem; color: #5b6b62; margin-top: .6rem; }
   footer { text-align: center; padding: 1.5rem 1rem 2.5rem; color: #5b6b62; font-size: .85rem; }
   footer strong { color: var(--texto); }
-  @media (max-width: 560px) { .caja { padding: 1.2rem; } }
+  @media (max-width: 560px) { .caja { padding: 1.2rem; } nav.legal a { margin: 0 .4rem; } }
 </style>
 </head>
 <body>
@@ -34,6 +38,12 @@
   <h1>Términos de Uso</h1>
   <p>Ruta al Saber 11™</p>
 </header>
+<nav class="legal" aria-label="Documentos legales">
+  <a href="../index.html">Inicio</a> ·
+  <a href="privacidad.html">Política de Privacidad</a> ·
+  <a href="terminos.html">Términos de Uso</a> ·
+  <a href="eliminacion-datos.html">Eliminación de Datos</a>
+</nav>
 <main>
   <div class="caja">
     <h2>1. Aceptación de los términos</h2>
@@ -65,9 +75,12 @@
     <h2>8. Modificaciones</h2>
     <p>El desarrollador puede actualizar estos Términos de Uso en cualquier momento. La versión vigente estará siempre disponible en esta página, indicando su fecha de entrada en vigencia.</p>
 
-    <h2>9. Contacto</h2>
+    <h2>9. Ley aplicable y jurisdicción</h2>
+    <p>Estos Términos de Uso se rigen por las leyes de la República de Colombia. Las controversias derivadas de su interpretación o aplicación se someten a la jurisdicción ordinaria colombiana, salvo que la ley disponga otra cosa.</p>
+
+    <h2>10. Contacto</h2>
     <p>Para consultas sobre estos términos, escribe a <strong>RutaMeritoApps@gmail.com</strong>.</p>
-    <p class="meta">Última actualización: 19 de septiembre de 2026.</p>
+    <p class="meta">Última actualización: 21 de septiembre de 2026.</p>
   </div>
 </main>
 <footer>
